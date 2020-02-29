@@ -69,3 +69,6 @@ const deleteCat = catId => {
     });
   });
 };
+
+
+module.exports = { getCats, createCat, updateCat, deleteCat };
